@@ -1,0 +1,30 @@
+html{font-family:'Times New Roman', Times, serif}
+
+header.background { 
+                 background-color: rgb(215, 67, 245);
+                }
+img.photo{
+    margin:auto;
+    display:block;
+    width: 10%;
+    height: 10%;
+}
+
+h1.title {background-color: rgb(166, 112, 252);
+    word-spacing: 0.5em;
+    letter-spacing: 0.2em;
+
+text-align: center;
+}
+
+h2 {background-color: blueviolet;}
+
+li{padding-bottom: 5px;}
+
+#lista{margin-left: -20px}
+footer{text-align: center;
+       background-color:rgb(243, 247, 240)}
+       span{ margin-left: 80px;}
+ 
+div.caja{background-image:ur("lb3d3a197210076d82d28ee1272f6681a.jpg");
+       background-size: contain;}

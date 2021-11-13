@@ -1,0 +1,29 @@
+html{font-family:'Times New Roman', Times, serif}
+
+header.background { 
+                 background-color: rgb(207, 207, 207);
+                }
+img.photo{
+    margin:auto;
+    display:block;
+    width: 10%;
+    height: 10%;
+}
+
+h1.title {background-color: rgb(126, 155, 175);
+    word-spacing: 0.5em;
+    letter-spacing: 0.2em;
+
+text-align: center;
+}
+
+h2 {background-color: rgb(117, 163, 206);}
+
+li{padding-bottom: 5px;}
+
+#lista{margin-left: -20px}
+footer{text-align: center;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+       background-color:rgb(34, 116, 148)}

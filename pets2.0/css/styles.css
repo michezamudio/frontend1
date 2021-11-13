@@ -1,0 +1,31 @@
+html{font-family:'Times New Roman', Times, serif}
+
+header.background { 
+                 background-color: rgb(207, 152, 152);
+                }
+img.photo{
+    margin:auto;
+    display:block;
+    width: 10%;
+    height: 10%;
+}
+
+h1.title {background-color: rgb(179, 92, 92);
+    word-spacing: 0.5em;
+    letter-spacing: 0.2em;
+
+text-align: center;
+}
+
+h2 {background-color: rgb(236, 240, 17);}
+
+li{padding-bottom: 5px;}
+
+#lista{margin-left: -20px}
+footer{text-align: center;
+       background-color:rgb(225, 233, 226)}
+
+
+
+      
+
