@@ -1,0 +1,187 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  
+}
+/* titulo 1*/
+h1 {text-align: left;
+  background-color: #1cd1b0;
+  font-size: 15px;
+  width: 2000px;
+  position:absolute;
+  height: 50px;
+ 
+  }
+
+/*titulo 2*/
+h2 {position:absolute;
+  width: 128px;
+  height: 47px;
+  left: 28px;
+  top: 60px;}
+
+/* padre */
+
+header {
+  background-color: #00669f;
+  height: 150px;
+  display: flex;
+  font-size: 40px;
+  font-weight: 480;
+  box-shadow: 0 10px 7px rgba(0, 0, 0, 0.25); /*efecto de sombra*/
+  position: sticky; 
+  z-index: 0;}
+
+/* Estilo de las tarjetas */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  height: 529px;
+  margin: 154px auto;
+}
+
+.heroe {
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-head {
+  height: 120px;
+  width: 120px;
+}
+
+.corazon {background-image: url(/imagenes/corazon.jpeg);
+  background-repeat: no-repeat;
+  position: absolute;
+  height:100px;
+  width:200px;
+  left : 40px;
+  
+  z-index: 10
+}
+
+/* Corazon rojo opcion 1
+
+.corazon {
+  background-image: url(/imagenes/corazon.jpeg);
+  font-size: 30px;
+  background-position: center;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  float: left;
+  
+} */
+
+.card-1 {
+  background-image: url(/imagenes/estadio.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:contain;
+
+} 
+
+.card-2 {
+  background-image: url(/imagenes/colores.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:contain;
+}
+
+
+.card-head-1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/imagenes/batman.jpeg);
+  height: 120px;
+  width: 120px;
+  position: absolute; /* Perfil de Batman */
+  top: 127px; 
+  left: 90px;
+  border-radius: 50%;  
+}
+
+.card-head-2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/imagenes/mujer.jpeg);
+  height: 120px;
+  width: 120px;
+  position: absolute; /* perfil de Harley  */
+  top: 127px;
+  left: 90px;
+  border-radius: 50%;
+}
+
+
+.titulo1 {position: absolute;
+  width: 407px;
+  height: 500px;
+  left: 50px;
+  top: 270px;
+  
+  
+  
+}
+
+
+.txtb{position: absolute;
+  width: 267px;
+  height: 113px;
+  left: 20px;
+  top: 324px;}
+
+
+
+
+button {
+  position: relative;
+}
+
+/* Botón de enviar */
+
+.boton1 {
+  background-color:#00669f;
+  color: #f3f3f3;
+  width: 129px;
+  height: 48px;
+  position: absolute;
+  bottom: 30px;
+  left: 85px;
+  border: none;
+}
+
+.btn {
+  background-color:#00669f;
+  color: #f3f3f3;
+  width: 129px;
+  height: 48px;
+  position: absolute;
+  bottom: 19px;
+  left: 85px;
+  border: none;
+}
+
+/* pie de página */
+
+footer {
+  background-color:#00669f;
+  height: 51px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #f3f3f3;
+}
+
+.footer-txt {
+  padding-left: 16px;
+  padding-top: 16px;}

@@ -1,0 +1,155 @@
+
+
+/*pad*/
+
+.contenedor{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024;
+    height: 678;
+    background-color:rgb(199, 198, 196);
+    margin: 200px;
+    padding: 0;
+    }
+    
+    .cajaheader {
+    display: flex;
+    width: 1024px;
+    height: 100px;
+    background-color:
+    #222222;
+    margin: 0;
+    padding: 0;
+    justify-content:flex-start;
+    }
+    /*logo*/
+    .imglogo {
+    background-image: url(/img/VectorPizza.png);
+    width: 95px;
+    height: 80px;
+    position: relative;
+    left: 10px;
+    z-index: 100;
+    margin-top: 7px;
+    align-items: center;
+    }
+    
+    .imgtitulo {
+    width: 0px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 35px;
+    align-items: center;
+    }
+    
+    .cajaheader h3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    padding-left: 500px;
+    padding-top: 15px;
+    }
+    
+    .menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    }
+    
+    
+    .cajamain {
+    display: flex;
+    width: 1024px;
+    height: 428px;
+    background-color: rgb(231, 236, 159);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .domi {
+    background-image: url(/imagenes/hombremoto.jpeg);
+    background-repeat: no-repeat;
+   background-position:left 4px;
+   display: flex;
+   align-items: flex-start;
+    width: 490px;
+    height: 350px;
+    margin-top: 1px;
+    }
+    
+    .gratis {
+    color: rgb(5, 5, 5);
+    margin-left: 5px;
+    padding-top: 5px;
+    }
+    
+    .compra {
+    color:white;
+    padding-top: 5px;
+    }
+        
+    .podio {
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    color:rgb(17, 17, 16);
+    text-align:justify;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .pizzas {
+    color:rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 5px;
+    align-items: flex-start;
+    }
+    
+    .podio img {
+    height: 129;
+    width: 30;
+    margin-top: 100px;
+    margin-left: 110px;
+    }
+    
+    
+    .cajafooter {
+    width: 993px;
+    height: 150px;
+    background-color:
+    #222222;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 28px;
+    font-family: 'Lucida Sans',;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 15px;
+    display: flex;
+    }
+    
+    .cajafooter .imglogo{
+        position: relative;
+        left: 10px;
+        z-index: 100;
+        margin-top: 5px;
+        margin-left: 550px;
+        margin-bottom: 25px;
+        justify-items: right;
+    }
+    
+    .cajafooter .imgtitulo {
+        width: 0px;
+        height: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
